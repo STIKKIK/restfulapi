@@ -24,12 +24,12 @@ class CheckDate extends REST_Controller {
             return $this->response($response, REST_Controller::HTTP_BAD_REQUEST);
         }
 		
-		$respose = array(
-			'message' => 'validated success',
-			'note' => 'test validate'
-		);
-		
-		return $this->response($response, REST_Controller::HTTP_OK);
+	$respose = array(
+		'message' => 'validated success',
+		'note' => 'test validate'
+	);
+
+	return $this->response($response, REST_Controller::HTTP_OK);
     }
 
     private function validate($data)
