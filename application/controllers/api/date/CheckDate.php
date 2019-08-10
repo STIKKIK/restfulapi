@@ -24,7 +24,7 @@ class CheckDate extends REST_Controller {
             return $this->response($response, REST_Controller::HTTP_BAD_REQUEST);
         }
 		
-	$respose = array(
+	$response = array(
 		'message' => 'validated success',
 		'note' => 'test validate'
 	);
